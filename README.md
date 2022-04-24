@@ -23,6 +23,7 @@ With this terraform code , you can find an example code for creation of resource
 - aws lambda permission
 
 API GW --> Kinesis Stream --> Kinesis Firehose --> s3 Bucket
+
 when you put any record through API GW, it triggers Kinesis Stream, and to be able to write the data to s3 Bucket, Kinesis Firehose is used in between.
 
 $ terraform -version 
